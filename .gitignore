@@ -1,0 +1,42 @@
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+docs/pesGerados/
+docs/apostilasGeradas/
+docs/avaliacoesGeradas/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Flask local/instance configurations
+instance/
+.webassets-cache
+
+# Environment variables & secrets
+.env
+.flaskenv
+
+# Local SQLite databases (Flask-SQLAlchemy default)
+*.db
+*.sqlite
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system & IDE files
+.DS_Store
+.idea/
+.qwen/
+.mimocode/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
