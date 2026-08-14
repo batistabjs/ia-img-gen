@@ -21,7 +21,7 @@ API_MODEL = os.environ.get("OPENROUTER_IMAGE_MODEL", "openai/gpt-image-2")
 print(f"Modelo de geração de imagem: {API_MODEL}")
 
 # 4. Diretório de saída e matriz
-output_dir = Path("imgs")
+output_dir = Path("imgs/geradas")
 output_dir.mkdir(parents=True, exist_ok=True)
 matriz_dir = Path("imgs/matriz")
 
