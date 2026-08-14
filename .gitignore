@@ -3,9 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-docs/pesGerados/
-docs/apostilasGeradas/
-docs/avaliacoesGeradas/
+
 
 # Virtual environments
 .venv/
